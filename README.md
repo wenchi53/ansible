@@ -1,7 +1,7 @@
 # ansible
 ## Install ansible
 Apt (Ubuntu):  
-```Java
+```
 sudo apt-get install -y ansible
 ```
 <br />
