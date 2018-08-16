@@ -1,8 +1,6 @@
 # Ansible
 
-| 图片 | 描述 |
-| ---- | ---- |
-|[ansible.png] | 百度|
+![Alt text](ansible.png?raw=true "Title")
 
 ## Install ansible
 Apt (Ubuntu):  
