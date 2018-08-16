@@ -1,8 +1,8 @@
 # ansible
 # Install ansible
-Apt (Ubuntu): sudo apt-get install -y ansible
-Yum (CentOS): sudo yum install ansible 
-Mac: brew install ansible
+Apt (Ubuntu): sudo apt-get install -y ansible\n
+Yum (CentOS): sudo yum install ansible\n
+Mac: brew install ansible\n
 
 # Check version
 ansible --version
