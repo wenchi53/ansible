@@ -7,11 +7,11 @@ sudo apt-get install -y ansible
 
 Yum (CentOS): 
 ```
-sudo yum install ansible <br />
+sudo yum install ansible
 ```
 Mac: 
 ```
-brew install ansible <br />
+brew install ansible
 ```
 
 ## Check version
@@ -24,7 +24,7 @@ Generating public & private keys
 ```
 ssh-keygen
 ```
-Put the public key to server
+Put the public key to server <br />
 Ex. ssh-copy-id jesse@128.107.241.178
 ```
 ssh-copy-id username@webserver
