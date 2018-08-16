@@ -51,5 +51,5 @@ ansible -m shell -a 'whoami' ucdavis
 ## Run the playbook
 Run main.yml
 ```
-ansible-playbook -m -K main.yml
+ansible-playbook -K main.yml
 ```
