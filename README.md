@@ -22,7 +22,7 @@ brew install ansible
 ansible --version
 ```
 
-## Login whithoud password
+## Login whithout password
 Generating public & private keys
 ```
 ssh-keygen
