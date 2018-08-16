@@ -1,17 +1,24 @@
 # ansible
+#Install ansible
+Apt (Ubuntu): sudo apt-get install -y ansible
+Yum (CentOS): sudo yum install ansible 
+Mac: brew install ansible
 
-# Login whithoud password
+#Check version
+ansible --version
+
+#Login whithoud password
 ssh-keygen
 ssh-copy-id username@webserver
-# ssh-copy-id jesse@128.107.241.178
+Ex. ssh-copy-id jesse@128.107.241.178
 
-# ping the server on host
+#Ping the server on host
 ansible -m ping all
 
-# use shell function
+#Pse shell function
 ansible -m shell -a 'df -h' centos
 ansible -m shell -a 'whoami' ucdavis
 
-# Run the playbook
+#Run the playbook
 ansible-playbook -m -K main.yml
 
