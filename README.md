@@ -1,5 +1,8 @@
 # ansible
 ## Install ansible
+```Java
+public static void main(String[]args){} //Java
+```
 Apt (Ubuntu): sudo apt-get install -y ansible <br />
 Yum (CentOS): sudo yum install ansible <br />
 Mac: brew install ansible <br />
