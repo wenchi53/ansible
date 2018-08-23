@@ -1,4 +1,4 @@
-[centos] # Group Name
+[centos] # linode server
 #server_ip ansible_ssh_user=username ansible_ssh_private_key_file=key
 104.237.152.96 ansible_ssh_user=jesse ansible_ssh_private_key_file=/Users/wenchi/.ssh/id_rsa
 
